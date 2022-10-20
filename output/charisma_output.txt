@@ -1,0 +1,101 @@
+CPP
+Size of matrices: (100, 100), (100, 100)
+Timing: 1 ms
+GFLOPS: 0.002
+Size of matrices: (200, 200), (200, 200)
+Timing: 8 ms
+GFLOPS: 0.016
+Size of matrices: (300, 300), (300, 300)
+Timing: 30 ms
+GFLOPS: 0.054
+Size of matrices: (400, 400), (400, 400)
+Timing: 74 ms
+GFLOPS: 0.128
+Size of matrices: (500, 500), (500, 500)
+Timing: 152 ms
+GFLOPS: 0.25
+Size of matrices: (600, 600), (600, 600)
+Timing: 229 ms
+GFLOPS: 0.432
+Size of matrices: (700, 700), (700, 700)
+Timing: 365 ms
+GFLOPS: 0.686
+Size of matrices: (800, 800), (800, 800)
+Timing: 546 ms
+GFLOPS: 1.024
+Size of matrices: (900, 900), (900, 900)
+Timing: 790 ms
+GFLOPS: 1.458
+Size of matrices: (1000, 1000), (1000, 1000)
+Timing: 1105 ms
+GFLOPS: 2
+Size of matrices: (1100, 1100), (1100, 1100)
+Timing: 1641 ms
+GFLOPS: 2.662
+Size of matrices: (1200, 1200), (1200, 1200)
+Timing: 1897 ms
+GFLOPS: 3.456
+Size of matrices: (1300, 1300), (1300, 1300)
+Timing: 2406 ms
+GFLOPS: 4.394
+Size of matrices: (1400, 1400), (1400, 1400)
+Timing: 2972 ms
+GFLOPS: 5.488
+Size of matrices: (1500, 1500), (1500, 1500)
+Timing: 4010 ms
+GFLOPS: 6.75
+Size of matrices: (1600, 1600), (1600, 1600)
+Timing: 4934 ms
+GFLOPS: 8.192
+Size of matrices: (1700, 1700), (1700, 1700)
+Timing: 6031 ms
+GFLOPS: 9.826
+Size of matrices: (1800, 1800), (1800, 1800)
+Timing: 6719 ms
+GFLOPS: 11.664
+Size of matrices: (1900, 1900), (1900, 1900)
+Timing: 8874 ms
+GFLOPS: 13.718
+Size of matrices: (2000, 2000), (2000, 2000)
+Timing: 10144 ms
+GFLOPS: 16
+Size of matrices: (2100, 2100), (2100, 2100)
+Timing: 11735 ms
+GFLOPS: 18.522
+Size of matrices: (2200, 2200), (2200, 2200)
+Timing: 13539 ms
+GFLOPS: 21.296
+Size of matrices: (2300, 2300), (2300, 2300)
+Timing: 14947 ms
+GFLOPS: 24.334
+PYTHON
+For matrices A(100, 100) and B(100, 100)
+Timing: 763
+GFLOPS: 0.002
+For matrices A(200, 200) and B(200, 200)
+Timing: 5526
+GFLOPS: 0.016
+For matrices A(300, 300) and B(300, 300)
+Timing: 20555
+GFLOPS: 0.054000000000000006
+For matrices A(400, 400) and B(400, 400)
+Timing: 45657
+GFLOPS: 0.128
+For matrices A(500, 500) and B(500, 500)
+Timing: 89456
+GFLOPS: 0.25
+For matrices A(600, 600) and B(600, 600)
+Timing: 154256
+GFLOPS: 0.43200000000000005
+For matrices A(700, 700) and B(700, 700)
+Timing: 251302
+GFLOPS: 0.686
+For matrices A(800, 800) and B(800, 800)
+Timing: 364470
+GFLOPS: 1.024
+For matrices A(900, 900) and B(900, 900)
+Timing: 515789
+GFLOPS: 1.4580000000000002
+For matrices A(1000, 1000) and B(1000, 1000)
+Timing: 733936
+GFLOPS: 2.0

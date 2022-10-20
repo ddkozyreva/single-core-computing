@@ -6,19 +6,22 @@
 #SBATCH --constraint=type_a
 #SBATCH --account=proj_1339
 
-MAX_SIZE=2300
+MAX_SIZE=3000
 echo "CPP"
 # Building cpp files:
 cmake --build build
 cmake --build build --target install
+mkdir -p output
 for ((i=100; i <= $MAX_SIZE; i+=100))
 do
-    ./bin/program < "./data/data_files/${i}.txt"
+    touch "output/output_cpp_${i}.txt"
+    ./bin/program < "./data/data_files/${i}.txt" > "output/output_${i}.txt"
 done
 
 module load Python
 echo "PYTHON"
 for ((i=100; i <= $MAX_SIZE; i+=100))
 do
-    python3 ./python/main.py < "./data/data_files/${i}.txt"
+    touch "output/output_python_${i}.txt"
+    python3 ./python/main.py < "./data/data_files/${i}.txt" > "output/output_python_${i}.txt"
 done

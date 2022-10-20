@@ -1,6 +1,6 @@
 #include "data_generator.hpp"
 #define MIN_SIZE 100
-#define MAX_SIZE 2300
+#define MAX_SIZE 3000
 
 int main(int argc, char* argv[])
 {

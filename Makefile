@@ -5,8 +5,12 @@ clean:
 	rm -rf build/* bin/data_generator bin/for_supercomputer bin/program
 	rm -rf data/data_files/*
 on_supercomputer:
-	g++ for_supercomputer/main.cpp -o bin/for_supercomputer
-	sh bin/for_supercomputer.sh
+	g++ -O3 -march=native for_supercomputer/main.cpp -o bin/for_supercomputer
+	sbatch -A proj_1339 bin/for_supercomputer.sh
+
+task:
+	g++ for_supercomputer/main.cpp -o bin/program
+	sh bin/build.sh
 
 cmake:
 	sh bin/build.sh
